@@ -46,8 +46,8 @@
   },
   "scripts": {
     "artifacts": "napi artifacts",
-    "build": "napi build --platform --release",
-    "build:debug": "napi build --platform",
+    "build": "node init && napi build --platform --release",
+    "build:debug": "node init && napi build --platform",
     "format:rs": "cargo fmt",
     "version": "napi version"
   },
