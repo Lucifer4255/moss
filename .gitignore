@@ -3,10 +3,8 @@
 .DS_Store
 __pycache__
 node_modules/
-.env
 !.env.template
 !.env.example
-.env.local
 dist/
 .next/
 coverage/
@@ -20,3 +18,4 @@ venv/
 
 *.egg-info
 .moss-cache
+config.bat

@@ -29,9 +29,9 @@
     "node": ">=20.9.0"
   },
   "scripts": {
-    "start": "tsx sample.ts",
+    "start": "node init && tsx sample.ts",
     "faq": "tsx faqSample.ts",
-    "dev": "tsx --watch sample.ts",
+    "dev": "node init && tsx --watch sample.ts",
     "type-check": "tsc --noEmit",
     "lint": "ESLINT_USE_FLAT_CONFIG=true eslint .",
     "format": "prettier --write .",
