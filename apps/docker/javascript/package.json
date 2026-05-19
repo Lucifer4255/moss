@@ -4,7 +4,7 @@
   "description": "Minimal Moss JS SDK example for containerized environments",
   "type": "commonjs",
   "scripts": {
-    "start": "tsx main.ts"
+    "start": "node init && tsx main.ts"
   },
   "dependencies": {
     "@moss-dev/moss": "^1.0.0",

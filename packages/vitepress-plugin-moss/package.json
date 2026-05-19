@@ -28,8 +28,8 @@
     "MossLogo_Dark_Icon.png"
   ],
   "scripts": {
-    "build": "vite build",
-    "dev": "vite build --watch",
+    "build": "node init && vite build",
+    "dev": "node init && vite build --watch",
     "documentation:build": "pnpm build && cd demo-site && pnpm install && vitepress build documentation",
     "test": "vitest run"
   },
